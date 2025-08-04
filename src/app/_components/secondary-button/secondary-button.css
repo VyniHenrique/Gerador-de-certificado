@@ -1,0 +1,24 @@
+.custom-buttom{
+  background-color: #1A2856;
+  padding: 12px auto;
+  width: 6.0625rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.custom-buttom:hover{
+  opacity: 90%;
+}
+
+.custom-buttom i{
+  font-size: 20px;
+}

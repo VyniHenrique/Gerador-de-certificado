@@ -1,0 +1,15 @@
+.custom-button{
+  border: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 4px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-button:hover{
+  background-color: #E2E8F0;
+  color: #D71D1D;
+}
