@@ -1,0 +1,22 @@
+.custom-card{
+  width: 42rem;
+  height: 4.5rem;
+  border: 1px solid;
+  border-radius: 8px;
+  border-color: #E2E8F0;
+  margin-bottom: 0.5rem;
+}
+
+.custom-date{
+  color: #64748B;
+  font-size: 12px;
+  line-height: 16px;
+   font-family: 'Inter', sans-serif;
+}
+
+.custom-name{
+  color: #1A2856;
+  font-size: 14px;
+  line-height: 20px;
+   font-family: 'Inter', sans-serif;
+}
