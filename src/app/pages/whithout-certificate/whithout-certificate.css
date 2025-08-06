@@ -1,0 +1,51 @@
+.h2{
+  color: #121621;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.p{
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #64748B;
+}
+
+.content-titles{
+  height: 3.75rem;
+  gap: 4px;
+  margin-bottom: 2rem;
+  margin-top: 2.5rem;
+}
+
+.custom-card{
+  width: 42rem;
+  height: 16.875rem;
+  border-radius: 8px;
+  border-color: #E2E8F0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+.custom-certificate-icon{
+  font-size: 3rem;
+  color: #64748B;
+  margin-bottom: 1.25rem;
+}
+
+.custom-warning-titles{
+  gap: 2px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.custom-h4{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #1A2856;
+  font-family: 'Inter', sans-serif;
+}
