@@ -1,0 +1,58 @@
+.custom-card{
+  width: 42rem;
+  max-height: 37.25rem;
+  border: 1px solid;
+  border-radius: 8px;
+  border-color: #E2E8F0;
+  padding: 2rem;
+}
+
+.custom-content-card{
+  max-width: 38rem;
+  max-height: 14.25rem;
+  border: 1px solid;
+  border-radius: 8px;
+  border-color: #E2E8F0;
+  padding: 1rem;
+}
+
+.custom-p{
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: bold;
+  color: #1A2856;
+  margin-bottom: 1.25rem;
+}
+
+.custom-list{
+  margin-bottom: 2rem;
+}
+
+label{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1A2856;
+  font-family: "Inter", sans-serif;
+}
+
+.custom-item{
+  display: flex;
+  justify-content: space-between;
+}
+
+hr{
+  all: unset;
+  display: block;
+  height: 1px;
+  background-color: #E2E8F0;
+  margin: 12px 0;
+}
+
+
+input{
+  border: 1px solid #E2E8F0;
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  height: 2.5rem;
+}

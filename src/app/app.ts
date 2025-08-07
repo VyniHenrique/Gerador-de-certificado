@@ -6,10 +6,12 @@ import { SecondaryButton } from "./_components/secondary-button/secondary-button
 import { RemoveButton } from "./_components/remove-button/remove-button";
 import { ItemCertificado } from "./_components/item-certificado/item-certificado";
 import { WhithoutCertificate } from "./pages/whithout-certificate/whithout-certificate";
+import { WithCertificate } from "./pages/with-certificate/with-certificate";
+import { FormCertificate } from "./pages/form-certificate/form-certificate";
 
 @Component({
   selector: 'app-root',
-  imports: [Navbar, PrimaryButton, RouterOutlet, SecondaryButton, RemoveButton, ItemCertificado, WhithoutCertificate],
+  imports: [Navbar, PrimaryButton, RouterOutlet, SecondaryButton, RemoveButton, ItemCertificado, WhithoutCertificate, WithCertificate, FormCertificate],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

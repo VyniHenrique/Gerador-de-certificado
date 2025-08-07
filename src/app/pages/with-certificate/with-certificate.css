@@ -1,4 +1,4 @@
-.custom-h2{
+.h2{
   color: #121621;
   font-family: "Inter", sans-serif;
   font-size: 24px;
@@ -19,4 +19,8 @@
   gap: 4px;
   margin-bottom: 2rem;
   margin-top: 2.5rem;
+}
+
+.custom-container{
+  max-width: 42rem;
 }
