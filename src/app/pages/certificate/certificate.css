@@ -35,16 +35,81 @@
   position: relative;
 }
 
-.conteudo-certificado{
+.certificate-content{
   width: 45rem;
   height: 29.375rem;
   background-color: #fff;
   border-radius: 8px;
-
+  position: relative;
 }
 
 .medal-icon{
+  z-index: 1;
   position: absolute;
   top: 12px;
   left: 12px;
+}
+
+.info-certificate{
+  margin: 4rem 2.5rem 2.5rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-certificate{
+  color: #1A2856;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 160%;
+  letter-spacing: 2.4px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle-certificate{
+  font-size: 12px;
+  line-height: 160%;
+  color: #121621;
+  margin-bottom: 1.25rem;
+}
+
+.name-student{
+  font-size: 52px;
+  font-weight: bold;
+  line-height: 80px;
+  color: #3B5AC2;
+  margin-bottom: 1.25rem;
+  font-family: "Dancing Script", cursive;
+}
+
+.activity-header{
+  font-size: 12px;
+  line-height: 160%;
+  color: #121621;
+  margin-bottom: 0.5rem;
+}
+
+.description-activity{
+  font-size: 14px;
+  line-height: 160%;
+  margin-bottom: 3rem;
+  color: #121621;
+  text-align: center;
+}
+
+.issue-date{
+  font-size: 11.2px;
+  font-weight: bold;
+  line-height: 160%;
+  color: #121621;
+  margin: 0;
+}
+
+.signature-icon{
+  position: absolute;
+  right: 2.5rem;
+  bottom: 1.25rem;
+  width: 4rem;
+  height: 4rem;
 }
