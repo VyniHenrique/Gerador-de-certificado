@@ -8,10 +8,11 @@ import { ItemCertificado } from "./_components/item-certificado/item-certificado
 import { WhithoutCertificate } from "./pages/whithout-certificate/whithout-certificate";
 import { WithCertificate } from "./pages/with-certificate/with-certificate";
 import { FormCertificate } from "./pages/form-certificate/form-certificate";
+import { Certificate } from "./pages/certificate/certificate";
 
 @Component({
   selector: 'app-root',
-  imports: [Navbar, PrimaryButton, RouterOutlet, SecondaryButton, RemoveButton, ItemCertificado, WhithoutCertificate, WithCertificate, FormCertificate],
+  imports: [Navbar, PrimaryButton, RouterOutlet, SecondaryButton, RemoveButton, ItemCertificado, WhithoutCertificate, WithCertificate, FormCertificate, Certificate],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
