@@ -14,16 +14,18 @@
         <p class="mb-0">Error</p>
       </div>
     </div>
-    <div class="mb-4 d-flex align-items-end">
+    <div class="mb-4 d-flex align-items-center">
       <div class="flex-grow-1 me-2 custom-input-group">
         <label class="form-label"> Atividade</label>
-        <input type="text" class="form-control custom-input" placeholder="Digite o título da atividade">
+        <div class="d-flex align-items-center">
+          <input type="text" class="form-control custom-input" placeholder="Digite o título da atividade">
+          <app-secondary-button></app-secondary-button>
+        </div>
         <div class="custom-error-message">
           <i class="ph ph-warning-circle"></i>
           <p class="mb-0">Error</p>
         </div>
       </div>
-      <app-secondary-button></app-secondary-button>
     </div>
     <div class="custom-list">
       <label class="form-label"> Lista de atividades</label>

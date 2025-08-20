@@ -20,6 +20,10 @@
   color: #64748B;
 }
 
+.custom-return{
+  cursor: pointer;
+}
+
 .certificate{
   margin-top: 2rem;
   background-image: url("../../../../public/certificate/Certificate_BG.png");
